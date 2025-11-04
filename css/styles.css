@@ -52,3 +52,22 @@
     color:#ffffff;
     margin:5px;
 }
+
+/* making images responsive by img type defination */
+img{width:100%; height:auto;}
+/* for Tablet */
+@media only screen and (max-width: 960px) {
+    body{background-color: aqua;}
+    #wrapper{width:920px;}
+    .colmd50{width:50%; float:left;}
+
+    
+}
+/* for Mobile */
+@media only screen and (max-width: 480px) {
+    body{background-color: blueviolet;}
+    #wrapper{width:450px;}
+    .colsm100{width:100%;}
+    
+}
+
